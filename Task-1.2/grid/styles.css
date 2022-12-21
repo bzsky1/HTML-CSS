@@ -33,7 +33,9 @@
 }
 
 .header {
-    padding: 40px 0px;
+    background-color: rgb(82, 82, 199); 
+    color: white;
+    padding: 40px 0;
     text-align: center;
     grid-area: "header";
 }
@@ -43,6 +45,7 @@
 }
 
 .nav-bl {
+    background-color: orange;
     grid-area: "nav";
     padding: 20px;
 }
@@ -55,12 +58,15 @@
 
 
 .links-bl {
+    background-color: rgb(165, 40, 88) ;
     grid-area: "rl";
     padding: 20px;
 }
 
 
 .footer {
+    background-color: green; 
+    color: white;
     grid-area: "footer";
     text-align: center;
     padding: 40px;
