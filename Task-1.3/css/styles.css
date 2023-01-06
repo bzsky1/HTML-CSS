@@ -128,16 +128,29 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-pl
   height: 25px;
 }
 
+.income-am {
+  position: relative;
+}
+.income-am .income-am__input-title {
+  position: relative;
+  right: 35px;
+}
+
 .income-am__input {
   display: flex;
+  right: 37px;
+  position: relative;
 }
 .income-am__input .income-am__txt {
+  position: absolute;
+  left: 175px;
   background-color: rgb(100, 0, 128);
   color: white;
-  width: 24px;
+  min-width: 30px;
   border-radius: 3px;
   padding: 5px;
   padding-right: 7px;
+  text-align: center;
 }
 .income-am__input input[type=range] {
   width: 173px;
