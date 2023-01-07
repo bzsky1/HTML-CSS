@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 30, 30);
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  width: 1300px;
+}
+
+.pacman {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+}
+.pacman::before, .pacman::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border: 80px solid #ffd000;
+  border-radius: 50%;
+  border-right: 80px solid transparent;
+  -webkit-animation: a1 linear 0.5s infinite;
+          animation: a1 linear 0.5s infinite;
+}
+.pacman::after {
+  -webkit-animation: a2 linear 0.5s infinite;
+          animation: a2 linear 0.5s infinite;
+}
+.pacman div:nth-child(1), .pacman div:nth-child(2), .pacman div:nth-child(3), .pacman div:nth-child(4), .pacman div:nth-child(5), .pacman div:nth-child(6), .pacman div:nth-child(7), .pacman div:nth-child(8) {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1150px;
+  opacity: 0;
+}
+.pacman div:nth-child(1) {
+  -webkit-animation: ball 3.5s 3.5s infinite linear;
+          animation: ball 3.5s 3.5s infinite linear;
+}
+.pacman div:nth-child(2) {
+  -webkit-animation: ball 3.5s 3s infinite linear;
+          animation: ball 3.5s 3s infinite linear;
+}
+.pacman div:nth-child(3) {
+  -webkit-animation: ball 3.5s 2.5s infinite linear;
+          animation: ball 3.5s 2.5s infinite linear;
+}
+.pacman div:nth-child(4) {
+  -webkit-animation: ball 3.5s 2s infinite linear;
+          animation: ball 3.5s 2s infinite linear;
+}
+.pacman div:nth-child(5) {
+  -webkit-animation: ball 3.5s 1.5s infinite linear;
+          animation: ball 3.5s 1.5s infinite linear;
+}
+.pacman div:nth-child(6) {
+  -webkit-animation: ball 3.5s 1s infinite linear;
+          animation: ball 3.5s 1s infinite linear;
+}
+.pacman div:nth-child(7) {
+  -webkit-animation: ball 3.5s 0.5s infinite linear;
+          animation: ball 3.5s 0.5s infinite linear;
+}
+.pacman div:nth-child(8) {
+  -webkit-animation: ball 3.5s 0s infinite linear;
+          animation: ball 3.5s 0s infinite linear;
+}
+
+@-webkit-keyframes a1 {
+  0% {
+    transform: rotate(270deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+
+@keyframes a1 {
+  0% {
+    transform: rotate(270deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(270deg);
+  }
+}
+@-webkit-keyframes a2 {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+@keyframes a2 {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+@-webkit-keyframes ball {
+  1% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-1270px);
+  }
+}
+@keyframes ball {
+  1% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-1270px);
+  }
+}
