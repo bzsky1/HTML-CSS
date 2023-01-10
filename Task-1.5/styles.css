@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.winter, .spring, .summer, .autumn {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.winter {
+  background: url("img/winter_bg.jpg") 0 0/cover no-repeat fixed;
+}
+
+.winter__title {
+  font-size: 7rem;
+  color: white;
+  opacity: 0.8;
+  text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 3px 3px 1px rgb(0, 0, 0);
+  -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 3px 3px 1px rgb(0, 0, 0);
+  -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 3px 3px 1px rgb(0, 0, 0);
+}
+
+.spring {
+  background: url("img/spring_bg.jpg") 0 0/cover no-repeat fixed;
+}
+
+.spring__title {
+  font-size: 7rem;
+  color: rgb(249, 122, 245);
+  opacity: 0.8;
+  text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+  -webkit-text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+  -moz-text-shadow: 0px 1px 0 rgb(255, 255, 255), 0px -1px 0 rgb(255, 255, 255), 1px 0px 0 rgb(255, 255, 255), -1px 0px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255);
+}
+
+.summer {
+  background: url("img/summer_bg.jpeg") 0 0/cover no-repeat fixed;
+}
+
+.summer__title {
+  font-size: 7rem;
+  color: rgb(255, 247, 0);
+  opacity: 0.8;
+  text-shadow: 0px 1px 0 rgb(186, 244, 11), 0px -1px 0 rgb(186, 244, 11), 1px 0px 0 rgb(186, 244, 11), -1px 0px 0 rgb(186, 244, 11), 1px 1px 0 rgb(186, 244, 11), 1px -1px 0 rgb(186, 244, 11), -1px 1px 0 rgb(186, 244, 11), -1px -1px 0 rgb(186, 244, 11);
+  -webkit-text-shadow: 0px 1px 0 rgb(186, 244, 11), 0px -1px 0 rgb(186, 244, 11), 1px 0px 0 rgb(186, 244, 11), -1px 0px 0 rgb(186, 244, 11), 1px 1px 0 rgb(186, 244, 11), 1px -1px 0 rgb(186, 244, 11), -1px 1px 0 rgb(186, 244, 11), -1px -1px 0 rgb(186, 244, 11);
+  -moz-text-shadow: 0px 1px 0 rgb(186, 244, 11), 0px -1px 0 rgb(186, 244, 11), 1px 0px 0 rgb(186, 244, 11), -1px 0px 0 rgb(186, 244, 11), 1px 1px 0 rgb(186, 244, 11), 1px -1px 0 rgb(186, 244, 11), -1px 1px 0 rgb(186, 244, 11), -1px -1px 0 rgb(186, 244, 11);
+}
+
+.autumn {
+  background: url("img/autumn_bg.jpg") 0 0/cover no-repeat fixed;
+}
+
+.autumn__title {
+  font-size: 7rem;
+  color: rgb(226, 125, 48);
+  opacity: 0.8;
+  text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+  -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+  -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0);
+}
