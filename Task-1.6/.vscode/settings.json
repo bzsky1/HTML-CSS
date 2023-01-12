@@ -5,9 +5,9 @@
             "format": "expanded",
             "autoprefix": "last 5 versions",
             "extensionName": ".css",
-            "savePath": "",
+            "savePath": "css",
             "savePathReplacementPairs": null
         }
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5502
 }
