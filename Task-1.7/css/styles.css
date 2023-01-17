@@ -86,7 +86,6 @@ body {
 }
 
 .slider__nav {
-  z-index: 99;
   position: absolute;
   bottom: 15px;
   width: 100%;
@@ -122,4 +121,16 @@ body {
 #s3:checked ~ .slider__nav #a3 {
   background-color: #fff;
   background: white;
+}
+
+#s1:checked ~ .slider__item_1 label,
+#s2:checked ~ .slider__item_2 label,
+#s3:checked ~ .slider__item_3 label {
+  display: block;
+}
+
+#s1:checked ~ .slider__item:not(.slider__item_1) label,
+#s2:checked ~ .slider__item:not(.slider__item_2) label,
+#s3:checked ~ .slider__item:not(.slider__item_3) label {
+  display: none;
 }
